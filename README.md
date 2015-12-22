@@ -1,3 +1,5 @@
+![travisCI](https://travis-ci.org/brennan-v-/flaskr-dataset.svg)
+
                          / Flaskr-dataset /
 
                  a minimal blog application
@@ -30,7 +32,7 @@
 
     ~ Attributions:
 
-      mitsuhiko/flask/examples/flaskr 
+      mitsuhiko/flask/examples/flaskr
       https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/
       
       pudo/dataset
