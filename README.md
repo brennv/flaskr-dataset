@@ -1,4 +1,4 @@
-![travisCI](https://travis-ci.org/brennan-v-/flaskr-dataset.svg)
+![travisCI](https://travis-ci.org/brennan-v-/flaskr-dataset.svg) ![pythons](https://img.shields.io/badge/python-2.7%2C%203.4%2C%203.5-brightgreen.svg)
 
                          / Flaskr-dataset /
 
