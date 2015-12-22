@@ -32,8 +32,6 @@
 
     ~ Attributions:
 
-      mitsuhiko/flask/examples/flaskr
-      https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/
+[mitsuhiko/flask/examples/flaskr](https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/)
       
-      pudo/dataset
-      https://github.com/pudo/dataset
+[pudo/dataset](https://github.com/pudo/dataset)
