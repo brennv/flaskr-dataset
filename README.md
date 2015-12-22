@@ -19,7 +19,7 @@
 
       2. create a virtual environment and install packages
 
-          virtualenv -p python3 venv
+          virtualenv venv
           source venv/bin/activate
 
           pip install -r requirements.txt
