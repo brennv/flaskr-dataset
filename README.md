@@ -1,4 +1,4 @@
-![travisCI](https://travis-ci.org/brennan-v-/flaskr-dataset.svg) [![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg)](https://codecov.io/github/brennan-v-/flaskr-dataset?branch=master) ![pythons](https://img.shields.io/badge/python-2.7%2C%203.4%2C%203.5-brightgreen.svg)
+![travisCI](https://travis-ci.org/brennan-v-/flaskr-dataset.svg) [![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg)](https://codecov.io/github/brennan-v-/flaskr-dataset?branch=master) ![pythons](https://img.shields.io/badge/python-2.7%2C%203.4%2C%203.5-blue.svg)
 
                          / Flaskr-dataset /
 
