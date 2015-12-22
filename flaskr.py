@@ -5,13 +5,15 @@ from dataset import connect
 
 # Instantiate and configure our little app :)
 app = Flask(__name__)
+
 app.config['DEBUG'] = True
 app.config['SECRET_KEY'] ='super-secret-key'
 app.config['USERNAME'] = 'admin'
 app.config['PASSWORD'] = 'default'
+app.config['DATABASE_URI'] = 'sqlite:///mydatadase.db'
 
-# Create the database and a table for blog entries
-db = connect('sqlite:///mydatabase.db')
+# Create the database and add our only table
+db = connect(app.config['DATABASE_URI'])
 if 'entries' not in db.tables:
     db.create_table('entries')
 
