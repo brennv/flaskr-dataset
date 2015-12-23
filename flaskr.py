@@ -14,13 +14,11 @@ app.config['DATABASE_URI'] = 'sqlite:///mydatadase.db'
 
 # Create the database and add our only table
 db = connect(app.config['DATABASE_URI'])
-if 'entries' not in db.tables:
-    db.create_table('entries')
+entries = db['entries']
 
 
 @app.route('/')
 def show_entries():
-    entries = db['entries'].all()
     return render_template('show_entries.html', entries=entries)
 
 
@@ -28,8 +26,8 @@ def show_entries():
 def add_entry():
     if not session.get('logged_in'):
         abort(401)
-    db['entries'].insert(dict(title=request.form['title'], 
-        text=request.form['text']))
+    entries.insert(dict(title=request.form['title'],
+                        text=request.form['text']))
     flash('New entry was successfully posted')
     return redirect(url_for('show_entries'))
 
