@@ -38,6 +38,6 @@
 
     ~ Attributions:
 
-[mitsuhiko/flask/examples/flaskr](https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/)
+[mitsuhiko/flask/examples/flaskr](https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/) [![GitHub stars](https://img.shields.io/github/stars/mitsuhiko/flask.svg?style=social&label=Star)](https://github.com/mitsuhiko/flask)
       
-[pudo/dataset](https://github.com/pudo/dataset)
+[pudo/dataset](https://github.com/pudo/dataset) [![GitHub stars](https://img.shields.io/github/stars/pudo/dataset.svg?style=social&label=Star)](https://github.com/pudo/dataset)
