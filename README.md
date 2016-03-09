@@ -1,4 +1,4 @@
-![travisCI](https://travis-ci.org/brennan-v-/flaskr-dataset.svg) [![Codecov](https://img.shields.io/codecov/c/github/brennan-v-/flaskr-dataset.svg)](https://codecov.io/github/brennan-v-/flaskr-dataset?branch=master)
+![travisCI](https://travis-ci.org/brennv/flaskr-dataset.svg) [![Codecov](https://img.shields.io/codecov/c/github/brennv/flaskr-dataset.svg)](https://codecov.io/github/brennv/flaskr-dataset?branch=master)
  ![pythons](https://img.shields.io/badge/python-2.7%2C%203.3%2C%203.4%2C%203.5%2C%203.5--dev-blue.svg)
 
                          / flaskr-dataset /
@@ -14,7 +14,7 @@
 
       1. clone the repo and step into it
 
-          git clone git@github.com:brennan-v-/flaskr-dataset.git
+          git clone git@github.com:brennv/flaskr-dataset.git
           cd flaskr-dataset
 
       2. create a virtual environment and install packages
@@ -25,7 +25,7 @@
           pip install -r requirements.txt
 
             or
-            
+
           pip install flask
           pip install dataset
 
@@ -39,5 +39,5 @@
     ~ Attributions:
 
 [mitsuhiko/flask/examples/flaskr](https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/) [![GitHub stars](https://img.shields.io/github/stars/mitsuhiko/flask.svg?style=social&label=Star)](https://github.com/mitsuhiko/flask)
-      
+
 [pudo/dataset](https://github.com/pudo/dataset) [![GitHub stars](https://img.shields.io/github/stars/pudo/dataset.svg?style=social&label=Star)](https://github.com/pudo/dataset)
